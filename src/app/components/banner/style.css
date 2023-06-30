@@ -1,0 +1,38 @@
+.foto{
+    border-radius: 50%;
+    height: 30vh;
+    width: 15vw;
+    margin:15px 0 15px 0;
+}
+.elemento-principal{
+    display: table;
+    width: 100%;
+    height: 200px;
+    background-color:#2F548E ;
+}
+.elemento-interno{
+    display:table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.celula1{
+    width: 40%;
+    padding-left: 100px;
+}
+.celula2{
+    width: 60%;
+    margin-left: 40px;
+}
+.titulo-banner{
+    color:white;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+}
+.descricao-banner{
+    color:white;
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    margin-top: 20px;
+}

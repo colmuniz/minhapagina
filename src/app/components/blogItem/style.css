@@ -1,0 +1,22 @@
+.titulo {
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    h3:hover{
+        color:blue;
+        
+    }
+}
+.descricao {
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.espaco {
+    margin-top: 15px;
+}
+.final{
+    color: #2F548E;
+    font-weight: bold;
+}
