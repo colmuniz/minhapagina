@@ -9,9 +9,11 @@ export const Banner = (props: {
     return <Fragment>
         <div className="elemento-principal">
             <div className="elemento-interno celula1">
-                <img src={props.image} className="foto" /> 
+                <div className="circle">  
+                    <img src={props.image} />  
+                </div>  
             </div>
-            <div className="elemento-interno celula2">
+            <div className="elemento-interno">
                 <h1 className="titulo-banner"> {props.title} 
                 </h1>
                 <p className="descricao-banner"> {props.children}

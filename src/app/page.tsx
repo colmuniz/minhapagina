@@ -1,19 +1,18 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+
 import { Blog } from './components/blog/blog'
 import { Banner } from './components/banner/banner'
 import { Menu } from './components/menu/menu'
 import { Fragment } from 'react'
 
 export default function Home() {
+  const urlImagem= "https://pegadanatural.com.br/wp-content/uploads/3-maneiras-de-cuidar-do-seu-filhote-de-cachorro-com-qualidade.jpg";
   return <Fragment>
     <header>
       <Menu></Menu>
     </header>
     <main>
-      <Banner title="Carolina Muniz" image="https://ca.slack-edge.com/T0DSE83UH-UHKJ20U6S-ffb80a05633e-512">
-        Sou de Belo Horizonte, tenho 41 anos, casada, mãe da Gabi. 
-        <br></br>Trabalho como Gerente de Tecnologia na Maxmilhas. 
+      <Banner title="Seu Nome" image={urlImagem}>
+      lorem ipsum dolor sit amet consectetur adipiscing elit sagittis velit torquent class ornare lobortis litora a duis lectus congue porttitor cubilia turpis inceptos lacinia ex suspendisse maximus tortor enim consequat feugiat pharetra penatibus curae tristique ligula eleifend at auctor tempus 
         </Banner>
       <Blog />
     </main>

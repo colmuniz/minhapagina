@@ -2,10 +2,10 @@
     color:black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
-    h3:hover{
-        color:blue;
-        
-    }
+}
+.titulo:hover{
+    color:#2F548E;
+    cursor:pointer;
 }
 .descricao {
     color:black;

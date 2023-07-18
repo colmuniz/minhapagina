@@ -4,6 +4,9 @@
     height: 40px;
     background-color:#2F548E ;
     justify-content: center;
+    padding: 20px 40vw;
+    margin-bottom: 10px;
+    font-weight: 500;
 }
 .item{
     flex:1;
@@ -12,6 +15,8 @@
 .tabela{
     display:flex;
     justify-content: center;
+    background-color:#2F548E ;
+    text-align: center;
 }
 .celula{
     display:table-cell;

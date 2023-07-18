@@ -6,8 +6,8 @@ export const BlogItem = (props: {
 }) => {
 
     return <Fragment>
-        <div>
-            <h3 className="titulo"> {props.title} 
+        <div className="titulo">
+            <h3 > {props.title} 
             </h3>
         </div>
         <div className="espaco">
